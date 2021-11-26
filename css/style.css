@@ -1,0 +1,347 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19.5px;
+	letter-spacing: 0.2px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+div, p, a {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	}
+.menu-logo{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 100px 5px 70px;
+}
+.menu{
+position: fixed;
+right: 130px;
+background: white;
+z-index: 3;
+}
+.a-menu{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-weight: bold; 
+	margin-right: 15px;
+}
+.a-menu:hover{
+	color: blue;
+}
+.h-content{
+	background: url(../img/lady.jpg) center no-repeat;
+	height: 705px;
+	padding: 250px 70px;
+	border-bottom-right-radius: 50%;
+}
+.h-text{
+	width: 550px;
+}
+.pr{
+	line-height: 40px;
+	font-size: 40px;
+	line-height: 45px;
+	margin-bottom: 30px;
+}
+.p-pr{
+	opacity: 50%;
+
+}
+.icons{
+	display: flex;
+}
+.icon, .up{
+	height: 50px;
+	width: 50px;
+	align-items: center;
+	background: #0078aa;
+	border-color:#0078aa;
+	border-radius: 50px;
+	display: block;
+	margin-right: 20px;
+	padding: 12px 10.5px;
+}
+.icon:hover{
+	background: white;
+	color: #0078aa;
+	border: 1px solid #0078aa;
+}
+.fas:hover{
+		color: #0078aa;
+}
+.fas{
+	color: white;
+}
+.up{
+	margin-left: 1250px;
+	margin-top: 40px;
+	padding: 17px 18px;
+	position: fixed;
+	bottom: 10px; right: 10px;
+}
+.content-s2{
+	display: flex;
+	margin: 100px 100px 50px 10px;
+}
+.about_clinic{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-left: 40px;
+}
+.proffesional_care{
+	color: #3b9ec5;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 40px;
+}
+li {
+    list-style-type: none;
+    width: 400px;
+   }
+   .h_ul:before {
+    content: "\21E8";
+    color: #3b9ec5;
+    margin-right: 10px;
+}
+.h_ul{
+	font-size: 16px;
+}
+.p-ul{
+	font-size: 12px;
+}
+.tools{
+	width: 650px;
+}
+.section3{
+	background: url(../img/services_bg.jpg) center no-repeat;
+	background-size: cover;
+	height: 550px;
+	padding: 80px 70px 60px 130px;
+}
+.how_help, .offers{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.read_more, .start{
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.b1-3, .b3-6{
+	display: flex;
+}
+.b{
+	width: 350px;
+	height: 230px;
+	background: white;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.h_section3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.p_section3{
+	font-size: 12px;
+}
+.section4{
+	padding: 80px 0;
+	background: url(../img/pricing_bg.jpg) center no-repeat;
+	background-size: contain;
+}
+.blocks_section4{
+	display: flex;
+}
+.bl{
+	background: #47c9e5;
+	height: 400px;
+	width: 300px;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	position: relative;
+	top: 20px;
+}
+.bl1{
+	background: white;
+	border: 2px solid #0078aa;
+	height: 440px;
+	width: 280px;
+	text-align: center;
+	color: #0078aa;
+	padding-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 2;
+}
+.allergy_check{
+	left: 250px;
+	z-index: 1;
+}
+.dental_care{
+	right: 250px;
+	z-index: 1;
+}
+.h5_section4{
+	font-size: 16px;
+	font-weight: bold;
+}
+.p1{
+	font-size: 40px;
+	margin: 20px;
+	font-weight: bold;
+}
+.p2{
+	font-style: italic;
+	font-size: 12px;
+}
+.p3{
+	font-size: 8px;
+}
+.f{
+	color: #0078aa;
+}
+.btn{
+	background: white;
+	display: block;
+	border: 1px solid #0078aa;
+	border-radius: 8px;
+	width: 80px;
+	height: 30px;
+	color: #0078aa;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.section5{
+	display: flex;
+}
+.contact{
+	width: 650px;
+}
+.make{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.content_section5{
+	margin-left: 20px;
+}
+.we_contact_you{
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 700px;
+	height: 50px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+input::placeholder{
+	font-style: italic;
+}
+.submit{
+	background: #0078aa;
+	display: block;
+	border: 1px solid #0078aa;
+	border-radius: 8px;
+	width: 70px;
+	height: 35px;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 3px;
+	margin-top: 20px;
+}
+.submit:hover{
+	cursor: pointer;
+	background: white;
+	border: 1px solid #0078aa;
+	color: #0078aa;
+}
+.footer{
+	background: #363636;
+	height: 50px;
+	padding-top: 10px;
+}
+.p_foo{
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+}
+  @media screen and (max-width: 1280px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .menu{
+    	right: 200px;
+    }
+    .h-content{
+    	width: 1280px;
+    }
+    .section3{
+    	width: 1280px;
+    	padding-left: 80px;
+    }
+    .allergy_check{
+	left: 160px;
+}
+	.dental_care{
+	right: 160px;
+}
+    .footer{
+    	width: 1280px;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .allergy_check{
+	left: 30px;
+}
+	.dental_care{
+	right: 30px;
+}
+.section4{
+	margin-left: 200px;
+}
+.p1{
+	font-size: 20px;
+}
+.bl, .bl1{
+	width: 500px;
+}
+  }
+  @media screen and (max-width: 650px) {
+    .h5_section4{
+    	font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 435px) {
+    body{
+    	display: block;
+    }
+  }
